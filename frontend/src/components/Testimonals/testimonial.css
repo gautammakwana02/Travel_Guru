@@ -1,0 +1,24 @@
+.testimonial-image{ 
+    max-width: 5%;
+    border-radius: 25px;
+}
+
+.tf{
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.tf h3{
+    color: #042f51;
+    font-size: 1.5rem;
+}
+
+.testimonial-content p{
+    text-align: justify;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}

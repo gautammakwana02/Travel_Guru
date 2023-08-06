@@ -1,0 +1,107 @@
+.booking {
+    padding      : 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0,0,0,.125);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    position     : sticky;
+    top          : 80px;
+ }
+ 
+ .booking__top h3 {
+    font-size  : 1.2rem;
+    font-weight: 700;
+ }
+
+.mls {
+   margin-top: 1rem;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   width: 350px;
+   padding-left: 5px;
+ }
+
+ .mls h6{
+   color: #717171;
+ }
+ .booking__top h3 span {
+    font-size  : 1rem;
+    font-weight: 400;
+    color      : black;
+ }
+ 
+ .booking__top span {
+    font-size  : 1rem;
+    font-weight: 600;
+    color      : black;
+ }
+ 
+ .booking__top span i {
+    color: black;
+ }
+ 
+ .booking__top {
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom : 1px solid rgb(229, 231, 235);
+ }
+ 
+ .booking__form {
+    padding-top: 1rem;
+ }
+ 
+ .booking__form h5 {
+    margin-bottom: 0.5rem;
+ }
+ 
+ .booking__form input {
+    width        : 100%;
+    padding      : 0.4rem;
+    border-radius: 0.5rem;
+    color        : black;
+    font-size    : 0.7rem;
+    border-bottom: 1px solid rgb(229, 231, 235);
+    border       : none;
+ }
+ 
+ .booking__form input:focus {
+    outline: none;
+ }
+ 
+ .booking__info-form {
+    padding: 0.2rem;
+    border : 1px solid rgb(229, 231, 235);
+ }
+ 
+ .booking__bottom li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+ .booking__bottom li h5,
+ .booking__bottom li span {
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: black;
+ }
+ 
+ 
+ .total h5,
+ .total span {
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    color: black !important;
+ }
+ 
+ .btn{
+   margin-top: 0px !important;
+ }
+ .booking__bottom Button {
+   background-color: #de5824;
+}
+
+ .booking__bottom Button:hover {
+   background-color: #de5824;
+    transform: scale(1.1);
+    transition: 0.5s;
+ }

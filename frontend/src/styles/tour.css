@@ -1,0 +1,36 @@
+.pagination span {
+    width          : 2rem;
+    height         : 2rem;
+    padding        : 5px;
+    border-radius  : 50px;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    border         : 1px solid black;
+    color          : black;
+    font-size      : 1rem;
+    cursor         : pointer;
+    font-weight    : 500;
+    margin-bottom: 1rem;
+ }
+ 
+ .active__page {
+    background: white;
+    color     : blue !important;
+ }
+
+ .ts{
+   margin-top: 1rem;
+ }
+
+ @media only screen and (max-width: 576px) {
+   .fss{
+      /* height: 30rem !important; */
+      width: 50rem !important;
+     margin-left: 65px !important;
+   }
+
+   .pagination{
+      margin-left: 142px;
+   }
+}

@@ -1,0 +1,48 @@
+.About__title{
+    text-align: center;
+    margin-top: 25px;
+    color: #de5824;
+    transition: transform 3s;
+   }
+  
+  .About__title:hover {
+    transform:rotateY(360deg);
+    ;
+  }
+
+  .pa h4{
+    color: #de5824;
+  }
+  .pa{
+    color: #717171;
+    width: 80%;
+    font-family: cursive;
+    margin: 1rem auto;
+  }
+
+  .spacing{
+    display: block;
+    margin-top: 10px !important; 
+ }
+
+ .gallery{
+    text-align: center;
+    margin: 3rem 0;
+    color: #de5824;
+    transition: transform 3s;
+   }
+  
+  .gallery:hover {
+    transform:rotateY(360deg);
+    ;
+  }
+
+  @media only screen and (max-width: 576px) {
+    .gallery,.About__title{
+      margin-left: 139px;
+    }
+
+    .pa{
+      width: 500px;
+    }
+ }
